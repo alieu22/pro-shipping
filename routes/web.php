@@ -1,6 +1,9 @@
 <?php
 
+use App\Http\Controllers\controllers\AboutController;
+use App\Http\Controllers\controllers\ServicesController;
 use Illuminate\Support\Facades\Route;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -13,10 +16,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('layouts.home');
 });
 
-Auth::routes();
 
+
+Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::group([], function() { //  the route group takes all the pages and puts them in a routed group
+    Route::get('/about', [AboutController::class, 'index'])->name('about'); // about page
+    Route:: get('/services', [ServicesController::class, 'index'])->name('services'); // services
+});
