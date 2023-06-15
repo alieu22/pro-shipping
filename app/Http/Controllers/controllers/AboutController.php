@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class AboutController extends Controller
 {
     public function index() { // you create a function called function
-        return view('pages.about');
+        return view('web.about');
     }
     
 }

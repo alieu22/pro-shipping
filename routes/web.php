@@ -17,8 +17,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/', function () {
-    return view('layouts.home');
+Route::get('/', function () { // i think this is the code that will show a the main page when the site loads 
+    return view('web.home'); // it was layouts.home but that gave an error 
 });
 
 
