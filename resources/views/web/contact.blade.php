@@ -4,6 +4,8 @@
 
 <section> 
     <h1>This is the Contact page</h1>
+
+<p> This is where you will want to contact me <p>
 </section>
 
 @endsection
