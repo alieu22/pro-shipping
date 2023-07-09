@@ -3,7 +3,7 @@
 @section('content')
 
 <section> 
-    <h1>This is the services pages</h1>
+    <h1> We provide lots of services <h1> 
 
 </section>
 
