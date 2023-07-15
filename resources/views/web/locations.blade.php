@@ -4,7 +4,7 @@
 @section('content')
 
 <section> 
-    <h1>This is the locations page</h1>
+    <h1>Locations</h1>
 </section>
 
 @endsection
