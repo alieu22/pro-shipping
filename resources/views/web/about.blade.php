@@ -16,7 +16,7 @@
     </div>
     <div class="row">
     <div class="col-md-4 col-lg-6 d-flex justify-content-start align-items-center">
-  <img src="{{ asset('img/Driver.jpeg') }}" alt="Ps-picture" class="img-fluid rounded" style="max-width: 30%; margin-right: 20px; margin-top: 30px;">
+  <img src="{{ asset('img/Driver2.jpeg') }}" alt="Ps-picture" class="img-fluid rounded" style="max-width: 30%; margin-right: 20px; margin-top: 30px;">
   
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et elit quis odio consequat semper vitae a urna. 
     Donec at mollis magna. Curabitur in sapien venenatis, tristique libero nec, volutpat lorem.
