@@ -1,13 +1,6 @@
-<style>  /* For now i used a custom css to mitigate the issue of the header text and container not showing up when the bootstrap style bg-purple is implemented */
-    .custom-header {
-        background-color: purple;
-    }
-    .custom-header .navbar-nav .nav-link {
-        color: white;
-    }
-</style>
+
 <header class="custom-header">
-    <nav class="navbar navbar-expand-md navbar-light bg-purple shadow-sm">
+    <nav class="navbar navbar-expand-md">
         <div class="container">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">

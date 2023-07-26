@@ -1,0 +1,45 @@
+/* Custom styles for the footer */
+.custom-footer {
+    background-color: purple;
+    color: #ffffff; /* White text color */
+    padding: -15px 0; /* Adjust padding as needed */
+    margin-top: -10px;
+    text-align: center;
+  }
+  
+  .custom-footer h3 {
+    color: #ffffff; /* White header text color */
+    font-size: 18px;
+  }
+  
+  .custom-footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .custom-footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  .custom-footer ul li a {
+    color: #ffffff; /* White link color */
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  
+  }
+  
+  .custom-footer ul li a:hover {
+    color: #dcdcdc; /* Lighter color on hover */
+  }
+  
+  /* Optionally, if you want to make the footer fixed at the bottom of the page */
+  .fixed-bottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  
+  

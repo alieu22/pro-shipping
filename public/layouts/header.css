@@ -1,0 +1,46 @@
+/* Custom navbar styles */
+/* This CSS file includes the styles for the Bootstrap navbar used in the app.blade.php layout */
+
+/* Navbar background and shadow */
+.navbar {
+    background-color: purple;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* Navbar brand link */
+.navbar-brand {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+/* Navbar links container */
+.navbar-nav {
+    display: flex;
+    list-style: none;
+}
+
+/* Navbar links */
+.navbar-nav .nav-link {
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+/* Active link styles */
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.navbar-toggler {
+    display: none;
+  }
+
+
+
