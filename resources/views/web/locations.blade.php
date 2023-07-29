@@ -17,6 +17,7 @@
                 <div class="col-md-8 col-lg-6 align-self-start">
                     <h1 style="margin-bottom: 10px;">Locations</h1>
                     <h4>"Eat sleep, meet our customers needs, repeat" - Pro Shipping</h4>
+                    <img src="{{ asset('img/deliveryguy.jpg') }}" alt="delivery guy">
                 
                 </div>
             </div>
