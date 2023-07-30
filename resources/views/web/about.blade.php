@@ -15,11 +15,11 @@
                 <div class="col-md-8 col-lg-6 align-self-start">
                     <h1 style="margin-bottom: 10px;">About Us</h1>
                     <h4>"Eat sleep, meet our customers needs, repeat" - Pro Shipping</h4>
-                <div class="image">
-                    <img src="{{ asset('img/deliveryman.jpg') }}" alt="delivery man">
+                <div class="first-section">
+                    <img class= "about-img1"src="{{ asset('img/deliveryman.jpg') }}" alt="delivery man">
                 </div>
                 <div class="second-section">
-                    <img src="{{ asset('img/deliveryguywithcustomer.jpg') }}" alt="delivery">
+                    <img class="about-img2" src="{{ asset('img/deliveryguywithcustomer.jpg') }}" alt="delivery">
                 </div>
                
                 

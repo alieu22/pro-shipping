@@ -17,16 +17,44 @@
                 <div class="col-md-8 col-lg-6 align-self-start">
                     <h1 style="margin-bottom: 10px;">Locations</h1>
                     <h4>"Eat sleep, meet our customers needs, repeat" - Pro Shipping</h4>
-                    <img src="{{ asset('img/deliveryguy.jpg') }}" alt="delivery guy">
+                    <img class="DeliveryGuy" src="{{ asset('img/deliveryguy.jpg') }}" alt="delivery guy">
                 </div>
             </div>
         </div>
-        <p> Find a store near you</p>
-        <div class="imagecontainer">
-        <img class= "image1" src="{{ asset('img/shippingbox.jpg') }}" alt="shipping box">
-        <img class= "image2" src="{{ asset('img/shippingbox.jpg') }}" alt="shipping box">
-        <img class= "image3" src="{{ asset('img/shippingbox.jpg') }}" alt="shipping box">
+       <h4> Find a store near you </h4>
+
+       <div class="imagecontainer">
+    <div class="image-wrapper">
+        <img class="image1" src="{{ asset('img/shippingbox.jpg') }}" alt="shipping box">
+        <h2>Proshipping center</h2>
+        <p> 132nd St SE C <br> 
+        Everett, WA 98208 US <br>
+        425-232-2345
     </div>
+    <div class="image-wrapper">
+        <img class="image2" src="{{ asset('img/shippingbox.jpg') }}" alt="shipping box">
+        <h2>Proshipping center</h2>
+        <p> 132nd St SE C <br> 
+        Everett, WA 98208 US <br>
+        425-232-2345
+    </div>
+    <div class="image-wrapper">
+        <img class="image3" src="{{ asset('img/shippingbox.jpg') }}" alt="shipping box">
+        <h2>Proshipping center</h2>
+        <p> 132nd St SE C <br> 
+        Everett, WA 98208 US <br>
+        425-232-2345
+    </div>
+    <div class="image-wrapper">
+        <img class="image4" src="{{ asset('img/shippingbox.jpg') }}" alt="shipping box">
+        <h2>Proshipping center</h2>
+        <p> 132nd St SE C <br> 
+        Everett, WA 98208 US <br>
+        425-232-2345
+    </div>
+</div>
+
+
     </section>
 </body>
 </html>

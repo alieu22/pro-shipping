@@ -1,15 +1,15 @@
-.image img{
-    width: 125px;
+.about-img1{
+    width:125px;
     height: 125px;
     position: relative;
     top: -100px;
     float: right;
 }
 
-.second-section img {
-    width: 300px;
+.about-img2 {
+    width: 250px;
     height: 200px;
-    margin-top: 50px;
+    margin-top: 50px; 
 }
 
 .text {

@@ -1,31 +1,58 @@
-.ps-box {
-    width: 450px;
-    height: 20px;
-    font-size: 20px;
-    border: 3px solid lightgray; /* changed border-width to 1px */
-    padding: 5px;  
-
+.ps-labels {
+  text-align: center;
 }
 
-.textarea.comment-box {
-    width: 100%;
-    height: 200px;
-    margin-top: -2px;
-    border: 3px solid lightgray; /* changed border-width to 1px */
-    
-  }
 
-  .ps-submitbtn {
-    margin-left: 900px;
-    position: relative;
-    top: -0px;
-    border-radius: 15px;
-    width: 120px;
-    height: 35px;
-    background-color: #aa2ee0;
-    border-style: solid;
-  }
-  .ps-labels {
-    margin-top: 40px;
-    display: inline-block;
-  }
+
+
+
+.ps-Labels {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.ps-center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.ps-contactMain,
+.ps-form {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.ps-form div {
+  margin-top: 20px;
+}
+
+.ps-box {
+  width: 450px;
+  height: 30px;
+  font-size: 20px;
+  border: 3px solid purple; /* changed border-width to 1px */
+  padding: 5px;
+}
+
+textarea.comment-box {
+  width: 100%;
+  height: 200px;
+  margin-top: -2px;
+  border: 3px solid lightgray; /* changed border-width to 1px */
+}
+
+.ps-submitbtn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 15px;
+  width: 120px;
+  height: 35px;
+  background-color: plum;
+  border-style: solid;
+}
+
+input::placeholder {
+  font-size: 15px;
+}
