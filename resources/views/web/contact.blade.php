@@ -22,27 +22,27 @@
         </div>
 
         <div class="Contact-Form"> 
-         <label class = "ps-labels" for="fullname">Name * (John Doe)</label>
+         <label class = "ps-labels" for="fullname">Name</label>
                 <br>
                 <input class = "ps-box" type="text" placeholder = "Enter your name" pattern="[a-zA-Z ]{1,30}" id = "fullname" name="full_name" title="(required)" required>
             </div>
 
             <div class = "Contact-Form">
-                <label class = "hp-Labels" for="phonenumber"> Phone Number * (123-456-7890)</label>
+                <label class = "ps-Labels" for="phonenumber"> Phone Number</label>
                 <br>
-                <input class = "hp-box" type="text" placeholder = "Enter your phone number"   pattern="^\d{3}-\d{3}-\d{4}$" id = "phonenumber" name="phone" title="(123-456-7890)" required>
+                <input class = "ps-box" type="text" placeholder = "Enter your phone number"   pattern="^\d{3}-\d{3}-\d{4}$" id = "phonenumber" name="phone" title="(123-456-7890)" required>
             </div>
 
             <div class = "Contact-Form">
-                <label class = "ps-Labels" for="email">Email * (abc@email.com) </label>
+                <label class = "ps-Labels" for="email">Email </label>
                 
                 <input class = "ps-box" type="text" placeholder = "Enter your email"  pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" id = "email" title="(required)" name="email" required >
             </div>
 
             <div class="Contact-Form">
              <label class="ps-Labels" for="comments">Reason for contact *</label>
-             <textarea class="comment-box" rows="5" name="reason" required></textarea>
-                </div>
+             <input class = "ps-box" type="text" placeholder = "Enter your reason"  pattern="[a-zA-Z0-9
+             
 
                 <div class = "ps-submit">
                  <input class = "ps-submitbtn" type="submit">
