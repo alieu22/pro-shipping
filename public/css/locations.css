@@ -1,0 +1,20 @@
+img {
+    max-width: 200px;
+    max-height:100px;
+    position: relative;
+    top: -110px;
+}
+
+
+
+
+.imagecontainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px; /* Adjust the margin as needed */
+}
+
+
+
+
+

@@ -18,10 +18,15 @@
                     <h1 style="margin-bottom: 10px;">Locations</h1>
                     <h4>"Eat sleep, meet our customers needs, repeat" - Pro Shipping</h4>
                     <img src="{{ asset('img/deliveryguy.jpg') }}" alt="delivery guy">
-                
                 </div>
             </div>
         </div>
+        <p> Find a store near you</p>
+        <div class="imagecontainer">
+        <img class= "image1" src="{{ asset('img/shippingbox.jpg') }}" alt="shipping box">
+        <img class= "image2" src="{{ asset('img/shippingbox.jpg') }}" alt="shipping box">
+        <img class= "image3" src="{{ asset('img/shippingbox.jpg') }}" alt="shipping box">
+    </div>
     </section>
 </body>
 </html>
