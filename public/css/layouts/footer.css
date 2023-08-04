@@ -32,12 +32,12 @@
 }
 
 /* Optionally, if you want to make the footer fixed at the bottom of the page */
-.fixed-bottom {
+/* .fixed-bottom {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-}
+} */
 
 
 

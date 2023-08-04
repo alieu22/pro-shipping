@@ -1,4 +1,4 @@
-
+<!-- 
 
 <footer class="custom-footer fixed-bottom">
 
@@ -22,4 +22,4 @@
             </div>
            
     </div>
-</footer>
+</footer> -->

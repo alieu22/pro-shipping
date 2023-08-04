@@ -5,8 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>{{ config('app.name')}}</title>
-        <link rel="stylesheet" href="{{ asset('layouts/header.css') }}">
-        <link rel="stylesheet" href="{{ asset('layouts/footer.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/layouts/header.css') }}">
+        <!-- <link rel="stylesheet" href="{{ asset('css/layouts/footer.css') }}"> -->
         <link rel="stylesheet" href="{{ asset('css/home.css') }}">
         <link rel="stylesheet" href="{{ asset('css/about.css') }}">
         <link rel="stylesheet" href="{{ asset('css/services.css') }}">
@@ -26,38 +26,11 @@
             body {
                 font-family: 'Nunito', sans-serif;
             }
-
-            #page-container {
-                /* background-color: rgb(255, 228, 233); */
-                position: relative;
-                min-height: 100vh;
-            }
-
-            .h-blue {
-                color: #87C253;
-            }
-
-            .h-first {
-                font-variant: small-caps;
-                text-align: center;
-                color: #006833;
-                font-size: 30px;
-            }
-
-            .h-red {
-                color: red;
-            }
         </style>
     </head>
     <body class="antialiased">
-        <div id="page-container">
-            @include('layouts.header')
-                <main id="content-wrap">
-                    @yield('content')
-                </main>
-
-            @include('layouts.footer')
-        </div>
-        
+        @include('layouts.header')
+                @yield('content')
+        @include('layouts.footer')
     </body>
 </html>
