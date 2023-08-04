@@ -33,7 +33,6 @@ Route::get('/home', function () { // the main home page
 Route::group([], function() {
     Route::get('/about', [AboutController::class, 'index'])->name('about');
     Route::get('/services', [ServicesController::class, 'index'])->name('services');
-    Route::get('/locations', [LocationController::class, 'index'])->name('locations');
     Route::get('/products', [ProductsController::class, 'index'])->name('products');
     Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 });
