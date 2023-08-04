@@ -1,18 +1,30 @@
-img {
-    max-width: 200px;
-    max-height:100px;
+.DeliveryGuy {
+    max-width: 150px;
+    max-height:150px;
     position: relative;
     top: -110px;
+    float: right;
 }
 
 
 
 
 .imagecontainer {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px; /* Adjust the margin as needed */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Adjust the number of columns as needed */
+    gap: 20px; /* Adjust the space between images as needed */
+    margin-top: 50px;
 }
+
+.imagecontainer img {
+    /* Optional: Set a fixed width for the images */
+    max-width: 300px; /* You can adjust this value as needed */
+
+    /* Optional: Set a fixed height for the images */
+    max-height: 200px; /* You can adjust this value as needed */
+}
+
+
 
 
 
