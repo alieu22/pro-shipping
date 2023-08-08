@@ -16,9 +16,7 @@
                     <li class="nav-item">
                         <a href="{{ route('services') }}" class="{{ request()->is('services') ? 'nav-link active' : 'nav-link' }}" data-content="Services">Services</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="{{ route('locations') }}" class="{{ request()->is('locations') ? 'nav-link active' : 'nav-link' }}" data-content="Locations">Locations</a>
-                    </li>
+                  
                     <li class="nav-item">
                         <a href="{{ route('products') }}" class="{{ request()->is('products') ? 'nav-link active' : 'nav-link' }}" data-content="products">Products</a>
                     </li>
