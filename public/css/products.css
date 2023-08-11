@@ -1,0 +1,14 @@
+
+
+
+
+.images {
+    width: 40%;
+    float: right;
+    margin-top: -140px; /* Adjust this value as needed */
+}
+
+.images img{
+    width: 200px;
+    height: 200px;
+}

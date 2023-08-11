@@ -31,19 +31,20 @@
             </p>
         </div>
 
-    </div>
+    </div class="location-gallery">
     
         <div class="last-section">
-        <img src="{{ asset('img/airfreight.jpg') }}" alt="airplane">
+            <img src="{{ asset('img/airfreight.jpg') }}" alt="airplane">
         </div>
 
         <div class="about-content-4">
-        <img src="{{ asset('img/image2.jpg') }}" alt="deliveryman">
+            <img src="{{ asset('img/image2.jpg') }}" alt="deliveryman">
         </div>
         <div class="about-image-3">
-        <img src="{{ asset('img/image3.jpg') }}" alt="delivercustomer">
+            <img src="{{ asset('img/image3.jpg') }}" alt="delivercustomer">
         </div>
     </div>
 </div>
+
 
 @endsection
