@@ -1,0 +1,17 @@
+
+
+.image {
+    position: relative;
+    top: -125px;
+}
+
+.services-page img {
+    width: 200px;
+    height: 200px;
+}
+.images {
+    width: 40%;
+    float: right;
+    margin-top: -235px;
+
+}
