@@ -31,7 +31,7 @@
             </p>
         </div>
 
-    </div class="location-gallery">
+    <div class="location-gallery">
     
         <div class="last-section">
             <img src="{{ asset('img/airfreight.jpg') }}" alt="airplane">

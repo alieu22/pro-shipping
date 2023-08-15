@@ -14,15 +14,12 @@
 
 <div class="products">
     <div class="productspage">
-        <p>We ship envelopes and packages weighing up to 150lbs throughout <br>the <strong>US, Africa, Asia, Europe, Middle East</strong> etc.</p>
+        <p>We ship envelopes and packages<br> weighing up to 150lbs throughout <br>the <strong>US, Africa, Asia, Europe, <br>Middle East</strong> etc.</p>
         <!--- Page Content needs to go here --->
-        <p> Ship worldwide with Pro shipping and get your package <br> in no time with Pro Shipping! Lorem ipsum dolor sit amet 
-        consectetur adipisicing elit.<br> Earum accusamus porro magni, deserunt Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        <br>Sequi vero commodi autem! Quibusdam molestias rem similique nobis cumque reiciendis neque <br>doloremque fugit saepe, nulla expedita
-         provident, aliquid blanditiis iste consequatur?</p>
+        <p> Ship worldwide with Pro shipping<br> and get your package in no time<br> with Pro Shipping!</p>
     </div>
 
-    <div class="images">
+    <div class="images-container">
         
             <img src="{{ asset('img/shippingbox.jpg') }}" alt="boxes">
         
