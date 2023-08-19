@@ -1,36 +1,135 @@
 /* Your existing CSS rules ... */
 
-.ps-center {
+@media screen and (min-width: 600px) {
+  .hf-he {
+      text-align: center ;
+  }
+
+
+  .hf-contact-para {
+      font-size: 20px;
+      text-align: center;
+  }
+  
+  .hf-contact-header {
+      font-size: 20px;
+      font-variant: small-caps;
+      text-align: center;
+  }
+
+  .hf-Labels  { /* delas with the space  between the label and the text box */
+    margin-top: 20px;
+    display: inline-block;
+    align-items: center;
+  }
+
+  
+  
+  
+  .hf-center {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  .hf-contactMain, .hf-form {
+     margin: 0 auto;
+     width: 80%;
+  }
+  
+  .hf-form div {
+      margin-top: 20px;
+  }
+  
+  .hf-box {
+      width: 450px; 
+      height: 30px; 
+      font-size: 20px;
+     
+  }
+  
+  .comment-box {
+    width: 900px;
+    margin-top: 20px;
+  }
+  
+  .hf-submitbtn {
+      margin-left: 500px;
+      position: relative; 
+      top: -50px;
+      border-radius: 15px;
+      width: 120px;
+      height: 35px;
+      background-color: #9fdbeb;
+      border-style: solid;
+  }
+  
+  input::placeholder {
+      font-size: 15px;
+  }
+  
+}
+
+/* as of right now starting here  we are in the mobile view. the new code should go under here to style the mobile contact portion */
+
+/* mobile view code */
+/* Mobile styles */
+
+/* Center header */
+.hf-he {
+  text-align: left;
+}
+
+/* Contact paragraph */
+.hf-contact-para {
+  font-size: 11ppx;
   text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center; /* Center vertically */
-  height: 100vh; /* Added to make sure the form is centered within the viewport */
-  margin-top: -200px; /* Adjust this value as needed */
+  word-wrap: break-word;
+ 
 }
 
-.ps-form {
-  width: 80%;
-  max-width: 600px; /* Adjust as needed */
-}
 
-.ps-form div {
-  margin-bottom: 20px; /* Add margin-bottom for spacing between form fields */
-  display: grid;
-  grid-template-columns: max-content 1fr; /* Labels take max-content width, inputs take remaining space */
-  grid-gap: 10px; /* Add spacing between label and input */
-  align-items: center; /* Center vertically */
-}
-
-.ps-box {
-  width: 100%;
-  height: 30px;
+/* Contact header */
+/* .hf-contact-header {
   font-size: 20px;
-  border: 3px solid purple;
-  padding: 5px;
-  box-sizing: border-box;
+} */
+
+/* Form container */
+.hf-contactMain, .hf-form {
+  width: 100%;
+  margin: 0;
 }
 
-/* Other CSS rules ... */
+/* Form fields */
+.hf-form div {
+  margin-top: 10px;
+}
+
+/* Input fields */
+.hf-box, .comment-box {
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+}
+
+/* Submit button */
+.hf-submitbtn {
+  margin: 20px auto;
+  position: relative;
+  top: 0;
+  border-radius: 15px;
+  width: 120px;
+  height: 35px;
+}
+
+.hf-contactMain h2 {
+  font-variant: small-caps;
+  text-align: center;
+}  
 
 
+.hf-contactMain {
+  padding-left: 25px;
+  padding-right: 25px;
+}

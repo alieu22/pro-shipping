@@ -1,49 +1,42 @@
-
 @extends('main')
 
 @section('content')
+<section class = "hf-sections">
+    <div class = "hf-contactMain">
+        <h2 class="hf-he hf-contact-header hf-center">Interested in Contacting us? </h2>
+        <p class = "hf-he hf-contact-para">For any questions regarding our adult family home LLC,<br> please complete this form </p>
 
-<div class="custom-container">
-    <div class="col-md-8 col-lg-6 cust-cont">
-        <h1 style="margin-bottom: 10px;">Contact</h1>
-        <h4>"Eat sleep, meet our customers needs, repeat" - Pro Shipping</h4>
-        <div class="image">
-            <img class="blc" src="{{ asset('img/deliveryman.jpg') }}" alt="delivery man">
-        </div>
-    </div>
-</div>
-
-<div class="page-cont contact-page">
-    <div class="ps-center">
-        <form action="" class="contact-form">
-            <div class="Contact-Form">
-                <label class="ps-labels" for="fullname">Name</label>
+        <form class = "hf-form">
+            <div class = "hf-name">
+                <label class = "hf-labels" for="fullname">Name</label>
                 <br>
-                <input class="ps-box" type="text" placeholder="Enter your name" pattern="[a-zA-Z ]{1,30}" id="fullname" name="full_name" title="(required)" required>
+                <input class = "hf-box" type="text" placeholder = "Enter your name" id = "fullname" pattern="[a-zA-Z]{1,15}" title="(required)" name="fullName" required>
             </div>
 
-            <div class="Contact-Form">
-                <label class="ps-Labels" for="phonenumber">Phone Number</label>
+            <div class = "hf-number">
+                <label class = "hf-Labels" for="phonenumber"> Phone Number</label>
                 <br>
-                <input class="ps-box" type="text" placeholder="Enter your phone number" pattern="^\d{3}-\d{3}-\d{4}$" id="phonenumber" name="phone" title="(123-456-7890)" required>
+                <input class = "hf-box" type="text" placeholder = "Enter your phone number" id = "phonenumber" pattern="^\d{3}-\d{3}-\d{4}$" name="phoneNumber" title="(123-456-7890)" required>
             </div>
 
-            <div class="Contact-Form">
-                <label class="ps-Labels" for="email">Email </label>
-                <input class="ps-box" type="text" placeholder="Enter your email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" id="email" title="(required)" name="email" required>
+            <div class = "hf-email">
+                <label class = "hf-Labels" for="email">Email </label>
+                <br>
+                <input class = "hf-box" type="text" placeholder = "Enter your email" id = "email" pattern="[a-zA-Z]{1,15}" title="(required)" name="email" required >
             </div>
 
-            <div class="Contact-Form">
-                <label class="ps-Labels" for="comments">Reason for contact *</label>
-                <input class="ps-box" type="text" placeholder="Enter your reason" pattern="[a-zA-Z0-9]">
-                <div class="ps-submit">
-                    <input class="ps-submitbtn" type="submit">
-                </div>
+            <div class = "hf-comments"> 
+                <label class  = " hf-Labels" for="comments">Reason for contact</label>
+                <br>
+                <textarea class="comment-box" rows=500> </textarea>
             </div>
+            
+
+             <div class = "hf-submit">
+                <input class = "hf-submitbtn" type="submit">
+             </div>
+
         </form>
     </div>
-</div>
-
-
-
+</section>
 @endsection
