@@ -40,18 +40,25 @@
   
   .hf-form div {
       margin-top: 20px;
+      
   }
   
   .hf-box {
-      width: 450px; 
+      width: 45%; 
       height: 30px; 
       font-size: 20px;
+      border: 2px solid purple;
+      margin: 0 auto;
+      justify-content: center;
      
   }
   
   .comment-box {
     width: 900px;
     margin-top: 20px;
+    border: 2px solid purple;
+    margin: 0 auto; 
+   
   }
   
   .hf-submitbtn {
@@ -62,7 +69,8 @@
       width: 120px;
       height: 35px;
       background-color: #9fdbeb;
-      border-style: solid;
+   
+      border: 2px solid purple;
   }
   
   input::placeholder {
