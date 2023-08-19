@@ -15,10 +15,50 @@
 
 <div class="page-cont">
     <!--- Page Content needs to go here --->
+ 
+
+
+<div class="home-content"> 
+ <h1 class="welcome-text"> Welcome to Pro Shipping </h1>
+ <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+     laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
+     eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
+     laborum <p>
+</div>
+
+
+<div class="home-gallery">
+    
+    <div class="homeimg-1">
+        <img src="{{ asset('img/airfreight.jpg') }}" alt="airplane">
+        <p> The best way to ship! Ship your items with Pro shipping <br> today and recieve them in no time <p>
+        <input type="button" value="View More" class="view-more1">
+    </div>
+
+    <div class="homeimg-2">
+        <img src="{{ asset('img/image2.jpg') }}" alt="deliveryman">
+        <p> The best way to ship! Ship your items with Pro shipping <br> today and recieve them in no time <p>
+        <input type="button" value="View More " class="view-more2">
+    </div>
+    <div class="homeimg-3">
+        <img src="{{ asset('img/image3.jpg') }}" alt="delivercustomer">
+        <p> The best way to ship! Ship your items with Pro shipping today <br> and recieve them in no time <p>
+        <input type="button" value="View More" class="view-more3">
+    </div>
+</div>
+
 </div>
 
 
 @endsection
 
-<!--  <img src="img/Driver.jpeg" alt="Ps-picture" class="img-fluid rounded custom-image"> !-->
-<!--  <img src="img/Driver2.jpeg" alt="Ps-picture" class="img-fluid rounded custom-image"> !-->
+
+
+
+
+
+
