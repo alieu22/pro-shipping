@@ -68,14 +68,9 @@
       border-radius: 15px;
       width: 120px;
       height: 35px;
-<<<<<<< HEAD
       background-color: #9fdbeb;
    
       border: 2px solid purple;
-=======
-      background-color: purple;
-      border-style: solid;
->>>>>>> 2c203ee43dc63b0e76daddb6f6f1988b0a0ac544
   }
   
   input::placeholder {

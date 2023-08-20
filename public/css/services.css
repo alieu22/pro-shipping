@@ -12,10 +12,27 @@
 .images {
     width: 40%;
     float: right;
-    margin-top: -235px;
+    margin-top: -350px;
 
 }
 
+.serviceimg-1 {
+    margin-left: 360px;
+    width: 70px;
+    height:70px;
+
+}
+
+.serviceimg-2 {
+width: 150px;
+height: 150px;
+}
+
+.serviceimg-3 {
+    margin-left: 360px;
+    width: 70px;
+    height:70px;
+}
 .services-page {
     font-size: 30px;
     margin-left: 30px;

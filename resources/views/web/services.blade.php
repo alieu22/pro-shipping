@@ -31,11 +31,17 @@
         
         
             <div class= "images">
+                <div class="serviceimg-1">
                 <img  src="{{ asset('img/shippingbox.jpg') }}" alt="boxes">
-                <img  src="{{ asset('img/mansigningbox.jpg') }}" alt="signing box">
-                <img  src="{{ asset('img/trucks.jpg') }}" alt="trucks">
-                <img  src="{{ asset('img/airplane.jpg') }}" alt="airplane">
+            </div>
 
+                <div class="serviceimg-2">
+                <img  src="{{ asset('img/mansigningbox.jpg') }}" alt="signing box">
+            </div>
+
+                <div class="serviceimg-3">      
+                <img  src="{{ asset('img/trucks.jpg') }}" alt="trucks">
+            </div>
 
             </div>
 
