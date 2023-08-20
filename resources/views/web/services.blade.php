@@ -33,15 +33,13 @@
             <div class= "images">
                 <div class="serviceimg-1">
                 <img  src="{{ asset('img/shippingbox.jpg') }}" alt="boxes">
-            </div>
-
+</div>
                 <div class="serviceimg-2">
                 <img  src="{{ asset('img/mansigningbox.jpg') }}" alt="signing box">
-            </div>
-
+</div>
                 <div class="serviceimg-3">      
-                <img  src="{{ asset('img/trucks.jpg') }}" alt="trucks">
-            </div>
+                <img  src="{{ asset('img/shippingbox.jpg') }}" alt="boxes">
+
 
             </div>
 

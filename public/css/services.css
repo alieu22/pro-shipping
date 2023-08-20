@@ -1,40 +1,35 @@
-
-
-.image {
-    position: relative;
-    top: -125px;
-}
-
 .services-page img {
     width: 200px;
     height: 200px;
 }
+
 .images {
     width: 40%;
     float: right;
-    margin-top: -350px;
-
+    margin-top: -280px;
 }
 
-.serviceimg-1 {
-    margin-left: 360px;
-    width: 70px;
-    height:70px;
-
+.serviceimg-1 img {
+    width: 180px;
+    height: 200px;
+    margin-left: 400px;
+   
 }
 
-.serviceimg-2 {
-width: 150px;
-height: 150px;
+.serviceimg-2 img {
+    width: 300px;
+    height: 250px;
 }
 
-.serviceimg-3 {
-    margin-left: 360px;
-    width: 70px;
-    height:70px;
+.serviceimg-3 img {
+    width: 180px;
+    height: 200px;
+    margin-left: 400px;
+    margin-top: -140px;;
 }
+
 .services-page {
-    font-size: 30px;
+    font-size: 20px;
     margin-left: 30px;
 }
 
