@@ -21,14 +21,23 @@
 
     <div class="images-container">
         
+            <div class="product-img1">
             <img src="{{ asset('img/shippingbox.jpg') }}" alt="boxes">
-        
+</div>
+
+        <div class="product-img2">
             <img src="{{ asset('img/shippingbox.jpg') }}" alt="boxes">
-        
+ </div>
+
+        <div class="product-img3">
             <img src="{{ asset('img/airfreight.jpg') }}" alt="airfreight">
-        
-            <img src="{{ asset('img/orangeenvelope.jpg') }}" alt="orange envelope">
-        
+</div>
+
+        <div class="product-img4">
+            <img src="{{ asset('img/envelop.jpg') }}" alt="orange envelope">
+</div>   
+
+
     </div>
 </div>
 

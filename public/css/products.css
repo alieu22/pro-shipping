@@ -5,12 +5,43 @@
     margin-top: -140px; /* Adjust this value as needed */
 }
 
-.images-container img{
-    width: 200px;
-    height: 200px;
-}
 
 .productspage {
     margin-left: 35px;
     font-size: 20px;
+}
+
+
+
+
+.product-img1 img { /* the box is on the right, next to the box on the left */
+    width: 400px;
+    height: 250px;
+    margin-left: 150px;
+    margin-top: -80px;
+
+   
+}
+
+.product-img2 img { /* the box, is on the left */
+    width: 400px;
+    height: 250px;
+    margin-left: -350px;
+   margin-top: -260px;
+}
+
+.product-img3 img { /* the airfreight */
+    width: 390px;
+    height: 240px;
+    margin-left: 150px;
+    margin-bottom: 30px;
+ 
+   
+}
+
+.product-img4 img { /* the enevlop */
+    width: 350px;
+    height: 200px;
+    margin-left: -350px;
+    margin-top: -250px;  
 }
