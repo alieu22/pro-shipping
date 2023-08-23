@@ -17,7 +17,8 @@
 
     <div>
         <div>
-            <button class="services-button" type="button">Shipping</button>
+          
+            <p class="services-text"> Shipping <p>
 
             <p>Ship within the <strong>US</strong>, <strong>Africa</strong>, <strong>Asia</strong>,<br>
              <strong>Europe</strong>, <strong>Middle East</strong> etc. and<br>
