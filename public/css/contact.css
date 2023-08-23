@@ -1,4 +1,159 @@
-/* Your existing CSS rules ... */
+/* the desktop view code */
+@media screen and (min-width: 451px) {
+  .hf-sections {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    text-align: center;
+}
+
+.hf-contactMain {
+    width: 100%;
+    max-width: 800px;
+    padding-left: -20px; /* Adjust the padding value as needed */
+
+}
+
+.hf-contact-header {
+    font-size: 25px;
+    font-variant: small-caps;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: left; /* Align the text to the left */
+    margin-left: -10px; /* Adjust the negative margin value to move the text left */
+}
+
+.hf-form {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.hf-Labels {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.hf-box,
+.comment-box {
+    width: 100%;
+    max-width: 450px;
+    height: 30px;
+    font-size: 20px;
+    border: 1px solid purple;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.comment-box {
+    height: 150px;
+}
+
+.hf-submitbtn {
+    margin-top: 10px;
+    border-radius: 15px;
+    width: 120px;
+    height: 35px;
+    background-color: #87C253;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+}
+
+
+/* as of right now starting here  we are in the mobile view. the new code should go under here to style the mobile contact portion */
+.hf-contact-header {
+  text-align: center;
+  font-variant: small-caps;
+}
+  
+  /* Contact paragraph */
+  .hf-contact-para {
+    font-size: 18px;
+    text-align: center;
+    word-wrap: break-word;
+   
+  }
+  
+  
+  /* Form container */
+  .hf-contactMain, .hf-form {
+    width: 100%;
+    margin: 0;
+  }
+  
+  /* Form fields */
+  .hf-form div {
+    margin-top: 10px;
+  }
+  
+  /* Input fields */
+ 
+  textarea.comment-box {
+    width: 100%;
+    height: 200px;
+    margin-top: -2px;
+    border: 3px solid purple; /* changed border-width to 1px */
+    padding: 5px;
+    align-content: center;
+  }
+
+  .hf-box {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    border: 3px solid purple; /* changed border-width to 1px */
+  }
+  
+  
+  /* Submit button */
+  .hf-submitbtn {
+    margin: 20px auto;
+    position: relative;
+    top: 0;
+    border-radius: 15px;
+    width: 120px;
+    height: 35px;
+    background-color: purple;
+    border-style: solid;
+  }
+
+  .hf-submit {
+    text-align: center;
+  }
+  
+  /* Placeholder text */
+  input::placeholder {
+    font-size: 14px;
+  }
+
+  .hf-contactMain {
+    padding: 0 25px;
+  }
+
+  .hf-login-submit {
+    background-color: purple;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+  }
+
+
+
+input::placeholder {
+  font-size: 15px;
+}
+
+
+
+
+/* 
 
 @media screen and (min-width: 600px) {
   .hf-he {
@@ -17,7 +172,7 @@
       text-align: center;
   }
 
-  .hf-Labels  { /* delas with the space  between the label and the text box */
+  .hf-Labels  { 
     margin-top: 20px;
     display: inline-block;
     align-items: center;
@@ -79,17 +234,14 @@
   
 }
 
-/* as of right now starting here  we are in the mobile view. the new code should go under here to style the mobile contact portion */
 
-/* mobile view code */
-/* Mobile styles */
 
-/* Center header */
+
 .hf-he {
   text-align: left;
 }
 
-/* Contact paragraph */
+
 .hf-contact-para {
   font-size: 11ppx;
   text-align: center;
@@ -98,30 +250,28 @@
 }
 
 
-/* Contact header */
-/* .hf-contact-header {
-  font-size: 20px;
-} */
 
-/* Form container */
+.hf-contact-header {
+  font-size: 20px;
+} 
+
 .hf-contactMain, .hf-form {
   width: 100%;
   margin: 0;
 }
 
-/* Form fields */
+
 .hf-form div {
   margin-top: 10px;
 }
 
-/* Input fields */
+
 .hf-box, .comment-box {
   width: 100%;
   height: 40px;
   font-size: 16px;
 }
 
-/* Submit button */
 .hf-submitbtn {
   margin: 20px auto;
   position: relative;
@@ -141,3 +291,5 @@
   padding-left: 25px;
   padding-right: 25px;
 }
+
+/* This is the end of a comment */
