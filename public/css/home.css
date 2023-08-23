@@ -47,12 +47,15 @@
   margin-top: 50px;
 }
 
+.homeimg-1 img {
+  margin-right: 35px;
+}
 .homeimg-2 img {
-  margin-left: 20px; /* Increase spacing between the second image and the first image */
+  margin-right: 35px; /* Increase spacing between the second image and the first image */
 }
 
 .homeimg-3 img {
-  margin-right: 20px; /* Increase spacing between the third image and the second image */
+  margin-right: 155px; /* Increase spacing between the third image and the second image */
 }
 
 .welcome-text {
@@ -99,4 +102,5 @@
 .home-paragraph {
  
   margin-top: -30px;
+  text-align: left;
 }

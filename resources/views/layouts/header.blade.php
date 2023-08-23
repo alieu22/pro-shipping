@@ -23,10 +23,11 @@
                     <li class="nav-item">
                         <a href="{{ route('contact') }}" class="{{ request()->is('contact') ? 'nav-link active' : 'nav-link' }}" data-content="Contact">Contact us </a>
                     </li>
-                   
+                   <!--
                     <li class="nav-item">
                         <a href="{{ route('login') }}" class="{{ request()->is('login') ? 'nav-link active' : 'nav-link' }}" data-content="Log in">Admin</a>
                     </li>
+-->
                 </ul>
             </div>
         </div>
