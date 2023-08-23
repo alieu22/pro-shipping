@@ -15,7 +15,7 @@
             </div>
 
             <div class="hf-number">
-                <label class="hf-Labels" for="phonenumber"> Tracking Number * (123-456-7890)</label>
+                <label class="hf-Labels" for="phonenumber"> Tracking Number (If Applicable)</label>
                 <input class="hf-box" type="tel" placeholder="Enter your Tracking number" pattern="^\d{3}-\d{3}-\d{4}$" id="phonenumber" name="phone" title="(123-456-7890)" required>
             </div>
 

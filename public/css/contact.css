@@ -3,10 +3,30 @@
   .hf-sections {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
     height: 100vh;
     text-align: center;
 }
+
+.hf-name  {
+  text-align: center;
+}
+
+.hf-Labels{
+margin-left: 150px;
+}
+
+.hf-number {
+  text-align: center;
+}
+
+.hf-email {
+  text-align: center;
+}
+
+.hf-comments {
+  text-align: center;
+}
+
 
 .hf-contactMain {
     width: 100%;
@@ -51,6 +71,7 @@
     height: 150px;
 }
 
+
 .hf-submitbtn {
     margin-top: 10px;
     border-radius: 15px;
@@ -60,6 +81,8 @@
     border: none;
     color: white;
     cursor: pointer;
+
+
 }
 
 
