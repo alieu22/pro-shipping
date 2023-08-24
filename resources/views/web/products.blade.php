@@ -34,7 +34,7 @@
 </div>
 
         <div class="product-img4">
-            <img src="{{ asset('img/envelop.jpg') }}" alt="orange envelope">
+            <img src="{{ asset('img/ENVELOPE2.jpeg') }}" alt="orange envelope">
 </div>   
 
 

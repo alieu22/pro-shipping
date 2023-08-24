@@ -28,20 +28,23 @@
     height: 250px;
     margin-left: -350px;
    margin-top: -260px;
+   margin-bottom: 95px;
 }
 
 .product-img3 img { /* the airfreight */
     width: 390px;
     height: 240px;
     margin-left: 150px;
-    margin-bottom: 30px;
- 
+    margin-bottom: 40px;
+    margin-top: -75px;
    
 }
 
 .product-img4 img { /* the enevlop */
-    width: 350px;
-    height: 200px;
+    width: 390px;
+    height: 240px;
     margin-left: -350px;
-    margin-top: -250px;  
+    margin-bottom: 65px;  
+    margin-top: -315px;
+    
 }

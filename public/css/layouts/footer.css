@@ -1,10 +1,67 @@
-/* Custom styles for the footer */
+/*
+
+#footer {
+  color: #ffffff;
+  background-color: #006833;
+}
+
+
+
+.hf-footer ul li {
+  list-style-type: none;
+ 
+}
+
+.hf-flinks a.active,
+.hf-flinks a.active:hover {
+color:#006833;
+background-color: white;
+padding: 3px;
+border-radius: 5px;
+}
+
+@media only screen and (min-width: 451px) {
+
+  .hf-footer, .hf-fsocial ul {
+      display: flex;
+      flex-flow: row wrap;
+  }
+
+  .hf-footer {
+      justify-content: space-around;
+  }
+
+  .hf-footer h3 {
+      font-variant: small-caps;
+  }
+
+  .hf-fcontact h3 {
+      margin-left: 40px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .hf-footer {
+      padding: 0 25px;
+  }
+
+  .hf-footer h3 {
+      font-variant: small-caps;
+  }
+
+  .hf-fcontact img {
+      display: inline;
+  }
+      
+}
+
+/* Custom styles for the footer
 .custom-footer {
   color: #ffffff;
   background-color: purple;
 }
 
-/* Styles for the links in the footer */
+
 .custom-footer ul {
   list-style: none;
   padding: 0;
@@ -39,7 +96,7 @@
   width: 100%;
 } */
 
-
+/*
 
 
   

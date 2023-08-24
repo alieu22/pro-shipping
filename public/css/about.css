@@ -5,13 +5,15 @@
 }
 
 .about-content-1 {
-    width: 300px;
-    height: 300px;
+    width: 20px;
+    height: 30px;
+    margin-left: -50px;
     margin-top: 130px;
 }
 
 .about-content-2 {
     width: 70%;
+    margin-right: -40px;
 }
 
 .about-content-3 h4 {
@@ -39,16 +41,36 @@
 .last-section img,
 .about-content-4 img,
 .about-image-3 img {
-    width: 400px;
-    height: 250px;
+    width: 320px;
+    height: 180px;
     margin-top: -75px;
     margin: 10px;
    
 }
 
 .last-section img {
-    margin-left: -20px;
+    width: 320px;
+    height: 180px;
+    margin-left: -455px;
+    margin-top: 110px;
 }
+
+.about-image-3 {
+    width: 20px;
+    height: 180px;
+    margin-left:150px;
+    margin-top: 100px;
+
+}
+
+.about-content-4 img {
+    width: 420px;
+    height: 180px;
+    margin-top:110px;
+    margin-left: 90px;
+}
+
+
 
 .about-gallery {
     display: flex;
