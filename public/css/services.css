@@ -1,3 +1,27 @@
+/* Maintain consistency with home and about page CSS */
+.custom-container {
+    max-height: 160px;
+    background-color: #17a2b8;
+    color: white;
+    padding: 10px;
+}
+
+.cust-cont {
+    width: 90%;
+    margin: auto;
+}
+
+.custom-container .image img {
+    width: 200px;
+    float: right;
+    clear: both;
+}
+
+.page-cont {
+    width: 90%;
+    margin: 10px auto;
+}
+
 .services-page img {
     width: 200px;
     height: 200px;
@@ -12,7 +36,7 @@
 .serviceimg-1 img {
     width: 420px;
     height: 200px;
-  margin-bottom: -170px;
+    margin-bottom: -170px;
     margin-left: 60px;
 }
 
@@ -35,10 +59,9 @@
 }
 
 .services-text {
- 
     font-size: 25px;
     margin-top: 20px;
-   font-weight: bold;
+    font-weight: bold;
     color: black;
     margin-left: 70px;
     margin-top: 70px;
