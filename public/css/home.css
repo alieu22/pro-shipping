@@ -1,7 +1,9 @@
 /* Home page is connected to the css */
 
 /* Custom CSS for the container */
-
+body {
+  background-color: #e4e4cd; 
+}
 .custom-container {
   max-height: 160px;
   background-color: #17a2b8;

@@ -2,7 +2,7 @@
 @extends('main') <!-- layouts.app !-->
 
 @section('content')
-
+<body class = "home-color">
 <div class="custom-container">
     <div class="col-md-8 col-lg-6 cust-cont">
         <h1 style="margin-bottom: 10px;">Home</h1>
@@ -52,7 +52,7 @@
 
 </div>
 
-
+</body>
 @endsection
 
 
