@@ -1,10 +1,27 @@
-
 #footer {
   color: #ffffff;
   background-color: #006833;
 }
 
+.hf-fcontact ul img {
+  width: 20px;
+  height: 20px;
+}
 
+.location {
+ background-color: #ffffff;
+}
+
+.Phone {
+  background-color: #ffffff; 
+}
+
+.hf-fsocial ul img {
+  width: 30px;
+  height: 30px;
+  padding: 0 3px;
+  
+}
 
 .hf-footer ul li {
   list-style-type: none;
@@ -53,50 +70,6 @@ border-radius: 5px;
   }
       
 }
-
-
-.custom-footer {
-  color: #ffffff;
-  background-color: purple;
-}
-
-
-.custom-footer ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.custom-footer ul li {
-  margin-bottom: -5px;
-}
-
-.custom-footer ul li a {
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 14px;
-  padding: 3px;
-  border-radius: 5px;
-}
-
-.custom-footer ul li a.active,
-.custom-footer ul li a.active:hover {
-  color: #006833;
-  background-color: white;
-  padding: 3px;
-  border-radius: 5px;
-}
-
-
-.fixed-bottom {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-} 
-
-
-
 
   
   
